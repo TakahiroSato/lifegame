@@ -1,0 +1,22 @@
+{
+  "name": "lifegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "TakahiroSato <futurenova52@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@takahiro_sato/canvas2d": "^1.7.0"
+  }
+}
