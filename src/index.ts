@@ -2,6 +2,12 @@ import { c2d } from "./util";
 import { set, random, update, draw } from "./lifegame";
 
 set(require("../pattern/grider_13.json").array);
+// set([
+//     [],
+//     [],
+//     [],
+//     [0,0,0,0,1,1,1],
+// ])
 
 const addClickEvent = (id: string, f: EventListener) => {
     document?.getElementById(id)?.addEventListener("click", f);
